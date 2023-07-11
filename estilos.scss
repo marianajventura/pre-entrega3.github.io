@@ -1,0 +1,169 @@
+/*
+{
+    padding: 0;
+    margin:0;
+} */
+
+$color1: pink;
+$color2: cadetblue;
+$color3: black; 
+$color4: white;
+$color5: aqua;
+$color6: red;
+
+
+body
+{
+    background-color: $color1;
+}
+
+.header
+{
+    background-color: $color2; 
+    height: 20%;
+    width: 100%;
+    border-bottom: 2px solid $color3;
+    margin-bottom: 10px;
+}
+
+nav 
+{
+    float: right;
+    margin-top: 5%;
+}
+
+.logo
+{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li
+{
+    float: left;
+    padding: 0 10px 0 10px;
+}
+
+a
+{
+    color: $color3;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover
+{
+/*background-color: black;*/
+color: $color1;
+}
+
+h1
+{
+    margin: 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.SUBTITULOS
+{
+    font-size: 20px;
+    color: $color3;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main
+{
+    text-align: center;
+    align-items: center;
+}
+
+.main
+{
+    text-align: center;
+}
+
+footer
+{
+    width: 100%;
+    height: 20%;
+    background-color: $color4;
+}
+
+.footer
+{
+    color: $color3;
+    font-size: 10px;
+    background-color: $color1;
+    text-align: center;
+}
+
+footer
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.redes-sociales 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.redes-sociales img 
+{
+    margin: 0 10px; 
+  }
+
+.flex-container
+{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+@media (max-width: 550px) /*aplico media queris o (min-width: 480px) and (max-widht: 700px)*/
+{
+
+    main 
+    {
+            text-align: center;
+            align-items: center;
+    }
+
+}
+
+.caja
+{
+    border: 1px solid $color3;
+    background-color: $color5;
+    color: $color3;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px; /*altura*/
+    text-align: center;
+    margin: 5px;
+    /*border-radius: 50%; */
+}
+
+.c1 /* cada palabra es una classe*/
+{
+    background-color: $color6;
+    background-image: url("https://www.recetasderechupete.com/wp-content/uploads/2019/11/Tarta-de-Oreo.jpg");
+
+    background-size: 200px 200px;
+
+}
